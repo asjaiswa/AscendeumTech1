@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 def test_dificulty_level():
-    n = 2
+    n = 10
     for i in range(1, n+1):
         driver = webdriver.Chrome()
         driver.maximize_window()
@@ -32,4 +32,5 @@ def test_dificulty_level():
     #we can convert same script in POM
 
 # Output :
+
 # Difficulty Easy
